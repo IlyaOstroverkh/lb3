@@ -1,0 +1,63 @@
+/* Встановлює загальний шрифт для сторінки та відступи */
+body {
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+}
+
+/* Оформлення панелі управління */
+.control_panel {
+    font-size: 26px; 
+}
+
+/* Стилі для елементів введення (input) */
+input {
+    padding: 10px 20px; 
+}
+
+/* Базові стилі для таблиці */
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+}
+
+/* Стилі для заголовків таблиці */
+th {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px; 
+}
+
+/* Стилі для комірок таблиці */
+td {
+    padding: 10px; 
+    text-align: center; 
+}
+
+/* Стиль для парних рядків таблиці */
+tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+/* Стиль для непарних рядків таблиці */
+tr:nth-child(odd) {
+    background-color: #ffffff; 
+}
+
+/* Спеціальний стиль для першого рядка таблиці */
+tr:first-child {
+    background-color: #4CAF50; 
+    color: white; 
+}
+
+/* Стилі для кнопок */
+button {
+    padding: 10px 20px; 
+    margin-top: 10px; 
+    cursor: pointer; 
+}
+
+/* Додатковий відступ для панелі управління */
+#control-panel {
+    margin-bottom: 20px; 
+}
